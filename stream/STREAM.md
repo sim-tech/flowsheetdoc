@@ -1,11 +1,11 @@
-Flowsheet¼Ü¹¹
+Flowsheetæž¶æž„
 	
-¹¦ÄÜÄ¿µÄ	?	ÖÆ×÷WebµÄflowsheet
-ÐèÇóÌá³ö·½	Ê¥Ì©
-¸½¼þ£¨Ä£ÐÍ¡¢ÀýÌâ£©	
-ÎÄµµ±àÐ´¸ºÔðÈË	Long, Huilong
-ÐÞ¶©	Rev	·¢²¼Ê±¼ä	ÐÞ¶©ÄÚÈÝ
-	1	2016.12.9	½²ÊöÁËflowsheetµÄ¼Ü¹¹
+åŠŸèƒ½ç›®çš„	ïƒ¹	åˆ¶ä½œWebçš„flowsheet
+éœ€æ±‚æå‡ºæ–¹	åœ£æ³°
+é™„ä»¶ï¼ˆæ¨¡åž‹ã€ä¾‹é¢˜ï¼‰	
+æ–‡æ¡£ç¼–å†™è´Ÿè´£äºº	Long, Huilong
+ä¿®è®¢	Rev	å‘å¸ƒæ—¶é—´	ä¿®è®¢å†…å®¹
+	1	2016.12.9	è®²è¿°äº†flowsheetçš„æž¶æž„
 	2		
 			
 			
@@ -16,93 +16,93 @@ Flowsheet¼Ü¹¹
 
 Flowsheet Demo
  
-FlowsheetÓÐÁ½ÖÖÄ£Ê½£¬Ò»ÖÖÊÇÌí¼ÓÄ£Ê½£¬ÁíÒ»ÖÖÊÇÍÏ×§Ä£Ê½¡£
-Ìí¼ÓÄ£Ê½£º
-?	¿ÉÒÔÌí¼Óstream£¬block	
-?	Ìí¼ÓÒ»¸öblockºó£¬½øÈëÍÏ×§Ä£Ê½
-?	StreamÌí¼ÓºóÒÀÈ»ÊÇÌí¼ÓÄ£Ê½
-ÍÏ×§Ä£Ê½£º
-?	×§stream½øÐÐÖØÐÂÁ¬½Óblock
-?	ÍÏ¶¯streamºÍblock
-?	¶ÔstreamµÄ¾Ö²¿ÏßÌõ½øÐÐÎ»ÖÃµ÷Õû
-?	ÒÆ¶¯blockµÄÊ±ºò£¬»áÒÆ¶¯Á¬½ÓµÄstream¡£
+Flowsheetæœ‰ä¸¤ç§æ¨¡å¼ï¼Œä¸€ç§æ˜¯æ·»åŠ æ¨¡å¼ï¼Œå¦ä¸€ç§æ˜¯æ‹–æ‹½æ¨¡å¼ã€‚
+æ·»åŠ æ¨¡å¼ï¼š
+ï¬	å¯ä»¥æ·»åŠ streamï¼Œblock	
+ï¬	æ·»åŠ ä¸€ä¸ªblockåŽï¼Œè¿›å…¥æ‹–æ‹½æ¨¡å¼
+ï¬	Streamæ·»åŠ åŽä¾ç„¶æ˜¯æ·»åŠ æ¨¡å¼
+æ‹–æ‹½æ¨¡å¼ï¼š
+ï¬	æ‹½streamè¿›è¡Œé‡æ–°è¿žæŽ¥block
+ï¬	æ‹–åŠ¨streamå’Œblock
+ï¬	å¯¹streamçš„å±€éƒ¨çº¿æ¡è¿›è¡Œä½ç½®è°ƒæ•´
+ï¬	ç§»åŠ¨blockçš„æ—¶å€™ï¼Œä¼šç§»åŠ¨è¿žæŽ¥çš„streamã€‚
 Stream
-Ìí¼Ó
-Ìí¼ÓÎïÁ÷µ½¿Õ°×´¦
-µ¥»÷ÎïÁ÷Ïßtile£¬È»ºóÔÚflowsheetÉÏµ¥»÷£¬»æÖÆÎïÁ÷ÏßµÄÆðµã¡£ÔÚflowsheetÉÏ½øÐÐµÚ¶þ´Îµã»÷£¬È·¶¨ÎïÁ÷ÏßµÄÖÕµã£¬»æÖÆÒ»ÕûÌõÎïÁ÷Ïß¡£Õâ¸ö¹ý³Ì°üº¬Á½²½£º
-1.	»æÖÆÁËÎïÁ÷ÏßµÄÆðµãºó£¬ÖÕµãÊÇÊó±êµÄÎ»ÖÃ£¬Êó±ê¿ÉÒÔÈÎÒâÒÆ¶¯£¬ÏßÌõ»áËæ×ÅÊó±êµÄÒÆ¶¯¶øÒÆ¶¯£¬ÏßÌõÊÇÖ±µÄ¡£
+æ·»åŠ 
+æ·»åŠ ç‰©æµåˆ°ç©ºç™½å¤„
+å•å‡»ç‰©æµçº¿tileï¼Œç„¶åŽåœ¨flowsheetä¸Šå•å‡»ï¼Œç»˜åˆ¶ç‰©æµçº¿çš„èµ·ç‚¹ã€‚åœ¨flowsheetä¸Šè¿›è¡Œç¬¬äºŒæ¬¡ç‚¹å‡»ï¼Œç¡®å®šç‰©æµçº¿çš„ç»ˆç‚¹ï¼Œç»˜åˆ¶ä¸€æ•´æ¡ç‰©æµçº¿ã€‚è¿™ä¸ªè¿‡ç¨‹åŒ…å«ä¸¤æ­¥ï¼š
+1.	ç»˜åˆ¶äº†ç‰©æµçº¿çš„èµ·ç‚¹åŽï¼Œç»ˆç‚¹æ˜¯é¼ æ ‡çš„ä½ç½®ï¼Œé¼ æ ‡å¯ä»¥ä»»æ„ç§»åŠ¨ï¼Œçº¿æ¡ä¼šéšç€é¼ æ ‡çš„ç§»åŠ¨è€Œç§»åŠ¨ï¼Œçº¿æ¡æ˜¯ç›´çš„ã€‚
  
-2.	µÚ¶þ´Îµã»÷Êó±ê£¬»æÖÆÏßÌõµÄÖÕµã£¬½«»áÐÎ³ÉÕÛÏß£¬ÐÎ³ÉµÄÕÛÏßÓÐÆðÊ¼¼ýÍ·£¬Ò²ÓÐ½áÊø¼ýÍ·¡£ÈôÊó±êÓÒ¼üµã»÷flowsheet£¬È¡ÏûµôstreamµÄÌí¼Ó¡£
+2.	ç¬¬äºŒæ¬¡ç‚¹å‡»é¼ æ ‡ï¼Œç»˜åˆ¶çº¿æ¡çš„ç»ˆç‚¹ï¼Œå°†ä¼šå½¢æˆæŠ˜çº¿ï¼Œå½¢æˆçš„æŠ˜çº¿æœ‰èµ·å§‹ç®­å¤´ï¼Œä¹Ÿæœ‰ç»“æŸç®­å¤´ã€‚è‹¥é¼ æ ‡å³é”®ç‚¹å‡»flowsheetï¼Œå–æ¶ˆæŽ‰streamçš„æ·»åŠ ã€‚
  
-Ìí¼ÓÎïÁ÷µ½BlockÉÏ
-µ±°ÑÎïÁ÷ÏßµÄÆðµãÉè¶¨ÔÚblockµÄportÉÏÊ±£¬¾Í»á¸østreamÌí¼Ósource¡£µ±Êó±êµÚ¶þ´Îµã»÷Ê±£¬stream±»»æÖÆÍê³É£¬Í¬Ê±°ÑstreamÌí¼Óµ½blockµÄoutletÉÏ¡£
+æ·»åŠ ç‰©æµåˆ°Blockä¸Š
+å½“æŠŠç‰©æµçº¿çš„èµ·ç‚¹è®¾å®šåœ¨blockçš„portä¸Šæ—¶ï¼Œå°±ä¼šç»™streamæ·»åŠ sourceã€‚å½“é¼ æ ‡ç¬¬äºŒæ¬¡ç‚¹å‡»æ—¶ï¼Œstreamè¢«ç»˜åˆ¶å®Œæˆï¼ŒåŒæ—¶æŠŠstreamæ·»åŠ åˆ°blockçš„outletä¸Šã€‚
  
-ÈçÉÏÍ¼ËùÊ¾£¬Õû¸öÎïÁ÷ÏßÊÇÓÉÈý¶Î×é³É£¬µÚÒ»¶ÎÊÇblockµÄportÏß£¬µÚ¶þ¶ÎÊÇstreamµÄstart¼ýÍ·£¬ÓÉÓÚÁ¬½ÓÁËblock£¬±ä³ÉÁËÖ±Ïß£¬µÚÈý¶ÎÊÇstreamµÄÆäËûÏß¡£
-×§¶¯
-´ÓÁ¬½Óblock Aµ½Á¬½ÓBlock B
+å¦‚ä¸Šå›¾æ‰€ç¤ºï¼Œæ•´ä¸ªç‰©æµçº¿æ˜¯ç”±ä¸‰æ®µç»„æˆï¼Œç¬¬ä¸€æ®µæ˜¯blockçš„portçº¿ï¼Œç¬¬äºŒæ®µæ˜¯streamçš„startç®­å¤´ï¼Œç”±äºŽè¿žæŽ¥äº†blockï¼Œå˜æˆäº†ç›´çº¿ï¼Œç¬¬ä¸‰æ®µæ˜¯streamçš„å…¶ä»–çº¿ã€‚
+æ‹½åŠ¨
+ä»Žè¿žæŽ¥block Aåˆ°è¿žæŽ¥Block B
  
-µ±Êó±ê½«ÎïÁ÷Ïß´Óblock A×§µ½block BÊ±£¬»áÓÐÈçÏÂ¼¸¸ö²½Öè£º
-1. Êó±êµã»÷ÎïÁ÷ÏßµÄstartArrow£¬ÎïÁ÷ÏßÉ¾µôsourceÐÅÏ¢£¬block AµÄoutletÈ¥³ýÎïÁ÷£¬Í¬Ê±ÕÛÏß±ä³ÉÁËÖ±Ïß¡£
-2. ÍÏ¶¯Êó±êÊ±£¬ ¼ýÍ·Ëæ×ÅÊó±êµÄÒÆ¶¯¶øÒÆ¶¯¡£
-3. µ±Êó±êÔÚBlock BµÄport·Å¿ªÊ±£¬ÎïÁ÷½«sourceÉèÖÃÎªblock B£¬Í¬Ê±block B ½«ÎïÁ÷Ìí¼Óµ½outletÖÐ£¬±£´æÎïÁ÷µÄÁ¬½ÓÎ»ÖÃÐÅÏ¢£¬·½±ãÍÏ¶¯blockÊ±£¬¿ÉÒÔÒÆ¶¯stream¡£
-´ÓÁ¬½Óblockµ½²»Á¬½Óblock
-µÚÒ»²½ÓëµÚ¶þ²½Í¬ÉÏ£¬Ö»ÊÇµÚÈý²½²»ÓÃ±£´æÁ¬½ÓÐÅÏ¢¡£
-´Ó²»Á¬½Óµ½²»Á¬½Óblock
-1.	Êó±êµã»÷arrowÊ±£¬ÕÛÏß±ä³ÉÁËÖ±Ïß¡£
-2.	ÍÏ¶¯Êó±êÊ±£¬ ¼ýÍ·Ëæ×ÅÊó±êµÄÒÆ¶¯¶øÒÆ¶¯¡£
-3.	ËÉ¿ªÊó±ê£¬È·¶¨ÁËarrowµÄÐÂÖÕµã£¬streamÓÉÖ±Ïß±ä³ÉÁËÕÛÏß¡£
-´Ó²»Á¬½Óblockµ½Á¬½Óblock
-1.	Êó±êµã»÷arrowÊ±£¬ÕÛÏß±ä³ÉÁËÖ±Ïß¡£
-2.	ÍÏ¶¯Êó±êÊ±£¬ ¼ýÍ·Ëæ×ÅÊó±êµÄÒÆ¶¯¶øÒÆ¶¯¡£
-3.	µ±Êó±êÔÚBlock BµÄport·Å¿ªÊ±£¬ÎïÁ÷½«sourceÉèÖÃÎªblock B£¬Í¬Ê±block B ½«ÎïÁ÷Ìí¼Óµ½outletÖÐ£¬±£´æÎïÁ÷µÄÁ¬½ÓÎ»ÖÃÐÅÏ¢£¬·½±ãÍÏ¶¯blockÊ±£¬¿ÉÒÔÒÆ¶¯stream¡£
-ÍÏ¶¯
-ÎÞsourceÁ¬½ÓÊ±
-ÍÏ¶¯µÚÒ»¸ùÏß»òÕß×îºóÒ»¸ùÏß
+å½“é¼ æ ‡å°†ç‰©æµçº¿ä»Žblock Aæ‹½åˆ°block Bæ—¶ï¼Œä¼šæœ‰å¦‚ä¸‹å‡ ä¸ªæ­¥éª¤ï¼š
+1. é¼ æ ‡ç‚¹å‡»ç‰©æµçº¿çš„startArrowï¼Œç‰©æµçº¿åˆ æŽ‰sourceä¿¡æ¯ï¼Œblock Açš„outletåŽ»é™¤ç‰©æµï¼ŒåŒæ—¶æŠ˜çº¿å˜æˆäº†ç›´çº¿ã€‚
+2. æ‹–åŠ¨é¼ æ ‡æ—¶ï¼Œ ç®­å¤´éšç€é¼ æ ‡çš„ç§»åŠ¨è€Œç§»åŠ¨ã€‚
+3. å½“é¼ æ ‡åœ¨Block Bçš„portæ”¾å¼€æ—¶ï¼Œç‰©æµå°†sourceè®¾ç½®ä¸ºblock Bï¼ŒåŒæ—¶block B å°†ç‰©æµæ·»åŠ åˆ°outletä¸­ï¼Œä¿å­˜ç‰©æµçš„è¿žæŽ¥ä½ç½®ä¿¡æ¯ï¼Œæ–¹ä¾¿æ‹–åŠ¨blockæ—¶ï¼Œå¯ä»¥ç§»åŠ¨streamã€‚
+ä»Žè¿žæŽ¥blockåˆ°ä¸è¿žæŽ¥block
+ç¬¬ä¸€æ­¥ä¸Žç¬¬äºŒæ­¥åŒä¸Šï¼Œåªæ˜¯ç¬¬ä¸‰æ­¥ä¸ç”¨ä¿å­˜è¿žæŽ¥ä¿¡æ¯ã€‚
+ä»Žä¸è¿žæŽ¥åˆ°ä¸è¿žæŽ¥block
+1.	é¼ æ ‡ç‚¹å‡»arrowæ—¶ï¼ŒæŠ˜çº¿å˜æˆäº†ç›´çº¿ã€‚
+2.	æ‹–åŠ¨é¼ æ ‡æ—¶ï¼Œ ç®­å¤´éšç€é¼ æ ‡çš„ç§»åŠ¨è€Œç§»åŠ¨ã€‚
+3.	æ¾å¼€é¼ æ ‡ï¼Œç¡®å®šäº†arrowçš„æ–°ç»ˆç‚¹ï¼Œstreamç”±ç›´çº¿å˜æˆäº†æŠ˜çº¿ã€‚
+ä»Žä¸è¿žæŽ¥blockåˆ°è¿žæŽ¥block
+1.	é¼ æ ‡ç‚¹å‡»arrowæ—¶ï¼ŒæŠ˜çº¿å˜æˆäº†ç›´çº¿ã€‚
+2.	æ‹–åŠ¨é¼ æ ‡æ—¶ï¼Œ ç®­å¤´éšç€é¼ æ ‡çš„ç§»åŠ¨è€Œç§»åŠ¨ã€‚
+3.	å½“é¼ æ ‡åœ¨Block Bçš„portæ”¾å¼€æ—¶ï¼Œç‰©æµå°†sourceè®¾ç½®ä¸ºblock Bï¼ŒåŒæ—¶block B å°†ç‰©æµæ·»åŠ åˆ°outletä¸­ï¼Œä¿å­˜ç‰©æµçš„è¿žæŽ¥ä½ç½®ä¿¡æ¯ï¼Œæ–¹ä¾¿æ‹–åŠ¨blockæ—¶ï¼Œå¯ä»¥ç§»åŠ¨streamã€‚
+æ‹–åŠ¨
+æ— sourceè¿žæŽ¥æ—¶
+æ‹–åŠ¨ç¬¬ä¸€æ ¹çº¿æˆ–è€…æœ€åŽä¸€æ ¹çº¿
  
-µ±ÍÏ¶¯µÚÒ»¸ùÏß»òÕß×îºóÒ»¸ùÏßÊ±£¬»áÍ¬Ê±ÒÆ¶¯ÏßÌõÉÏµÄ¼ýÍ·¡£
-ÍÏ¶¯µÚ¶þ¸ùÏß»òÕßµ¹ÊýµÚ¶þ¸ùÏß
+å½“æ‹–åŠ¨ç¬¬ä¸€æ ¹çº¿æˆ–è€…æœ€åŽä¸€æ ¹çº¿æ—¶ï¼Œä¼šåŒæ—¶ç§»åŠ¨çº¿æ¡ä¸Šçš„ç®­å¤´ã€‚
+æ‹–åŠ¨ç¬¬äºŒæ ¹çº¿æˆ–è€…å€’æ•°ç¬¬äºŒæ ¹çº¿
   
-µ±ÒÆ¶¯µÚ¶þ¸ùÏß»òÕßµ¹ÊýµÚ¶þ¸ùÏßÊ±£¬»áÈÃ¼ýÍ·³öÏÖÈýÖÖ×´Ì¬£º
-¼ýÍ·´Ó×óµ½ÓÒ:
-µ±µÚ¶þ¸öµãµÄºá×ø±ê±ÈµÚÒ»¸öµãµÄºá×ø±ê´ó15(¼ýÍ·µÄ³¤¶È)Ê±£¬¼ýÍ·´Ó×óµ½ÓÒ¡£
-¼ýÍ·´¹Ö±:
-µ±µÚ¶þ¸öµãµÄºá×ø±êÓëµÚÒ»¸öµãµÄºá×ø±êÏà²îÐ¡Óë15Ê±£¬Ê¹ÓÃ´¹Ö±¼ýÍ·¡£¼ýÍ·ÉÏÏÂµÄ·½ÏòÓÉµØ1¸öµãºÍµÚÈý¸öµãÀ´¾ö¶¨¡£
-¼ýÍ·´ÓÓÒµ½×ó:
-µ±µÚ¶þ¸öµãµÄºá×ø±ê±ÈµÚÒ»¸öµãµÄºá×ø±êÐ¡15(¼ýÍ·µÄ³¤¶È)Ê±£¬¼ýÍ·´Ó×óµ½ÓÒ¡£
-ÓÐsourceÁ¬½ÓÊ±
-µ±Á¬½ÓÁËsourceÊ±£¬
-ÍÏ¶¯µÚÒ»¸ùÏß»òÕß×îºóÒ»¸ùÏß
+å½“ç§»åŠ¨ç¬¬äºŒæ ¹çº¿æˆ–è€…å€’æ•°ç¬¬äºŒæ ¹çº¿æ—¶ï¼Œä¼šè®©ç®­å¤´å‡ºçŽ°ä¸‰ç§çŠ¶æ€ï¼š
+ç®­å¤´ä»Žå·¦åˆ°å³:
+å½“ç¬¬äºŒä¸ªç‚¹çš„æ¨ªåæ ‡æ¯”ç¬¬ä¸€ä¸ªç‚¹çš„æ¨ªåæ ‡å¤§15(ç®­å¤´çš„é•¿åº¦)æ—¶ï¼Œç®­å¤´ä»Žå·¦åˆ°å³ã€‚
+ç®­å¤´åž‚ç›´:
+å½“ç¬¬äºŒä¸ªç‚¹çš„æ¨ªåæ ‡ä¸Žç¬¬ä¸€ä¸ªç‚¹çš„æ¨ªåæ ‡ç›¸å·®å°ä¸Ž15æ—¶ï¼Œä½¿ç”¨åž‚ç›´ç®­å¤´ã€‚ç®­å¤´ä¸Šä¸‹çš„æ–¹å‘ç”±åœ°1ä¸ªç‚¹å’Œç¬¬ä¸‰ä¸ªç‚¹æ¥å†³å®šã€‚
+ç®­å¤´ä»Žå³åˆ°å·¦:
+å½“ç¬¬äºŒä¸ªç‚¹çš„æ¨ªåæ ‡æ¯”ç¬¬ä¸€ä¸ªç‚¹çš„æ¨ªåæ ‡å°15(ç®­å¤´çš„é•¿åº¦)æ—¶ï¼Œç®­å¤´ä»Žå·¦åˆ°å³ã€‚
+æœ‰sourceè¿žæŽ¥æ—¶
+å½“è¿žæŽ¥äº†sourceæ—¶ï¼Œ
+æ‹–åŠ¨ç¬¬ä¸€æ ¹çº¿æˆ–è€…æœ€åŽä¸€æ ¹çº¿
  
-ÍÏ¶¯µÚÒ»¸ùÏßÊ±£¬»áÔÚarrowºÍlineµÄµÚÒ»¸öµãÖ®¼äÓÃÏßÁ¬ÆðÀ´£¬Õâ¸öÏßÖ»ÆðÒ»¸öÁ¬½ÓµÄ×÷ÓÃ£¬²»ÄÜÓÃÓÚÍÏ×§¡£
-ÍÏ¶¯µÚ¶þ¸ùÏß»òÕßµ¹ÊýµÚ¶þ¸ùÏß
+æ‹–åŠ¨ç¬¬ä¸€æ ¹çº¿æ—¶ï¼Œä¼šåœ¨arrowå’Œlineçš„ç¬¬ä¸€ä¸ªç‚¹ä¹‹é—´ç”¨çº¿è¿žèµ·æ¥ï¼Œè¿™ä¸ªçº¿åªèµ·ä¸€ä¸ªè¿žæŽ¥çš„ä½œç”¨ï¼Œä¸èƒ½ç”¨äºŽæ‹–æ‹½ã€‚
+æ‹–åŠ¨ç¬¬äºŒæ ¹çº¿æˆ–è€…å€’æ•°ç¬¬äºŒæ ¹çº¿
  
-µ±ÍÏ¶¯µÚ¶þ¸ùÏßµÄÊ±ºò£¬source µÄarrow·½ÏòÒÑ¾­È·¶¨ÁË£¬ÊÇ²»ÔÊÐí¸Ä±äµÄ¡£
-ÏßÌõµÄ²¼¾Ö¼°µãµÄ¸öÊý
-ÏßµÄ¼ýÍ··½ÏòÊÇ±»blockµÄport·½Ïò¾ö¶¨µÄ¡£
+å½“æ‹–åŠ¨ç¬¬äºŒæ ¹çº¿çš„æ—¶å€™ï¼Œsource çš„arrowæ–¹å‘å·²ç»ç¡®å®šäº†ï¼Œæ˜¯ä¸å…è®¸æ”¹å˜çš„ã€‚
+çº¿æ¡çš„å¸ƒå±€åŠç‚¹çš„ä¸ªæ•°
+çº¿çš„ç®­å¤´æ–¹å‘æ˜¯è¢«blockçš„portæ–¹å‘å†³å®šçš„ã€‚
  
-ÈçÉÏÍ¼ËùÒÔ£¬1,2ºÍ5,6Á½¸öµãÊÇ±»portµÄ·½Ïò¹Ì¶¨µÄ¡£µ±·¢ÏÖ3ºÍ5ÎÞ·¨Ö±½ÓÁ¬³ÇÒ»Ìõ´¹Ö±µÄÏßÊ±£¬¾ÍÈ¡yÖáµÄÖÐ¼äÖµ£¬ÐÎ³ÉÒ»ÌõÖ±Ïß¡£
-ÏßÌõµÄ²ã¼¶¹ØÏµ
-ÓÉÓÚÊó±êµã»÷ÔÚArrowÉÏÊ±£¬jqueryÎÞ·¨²¶×½µ½µã»÷ÊÂ¼þ£¬ËùÒÔ°Ñarrow·Åµ½ÁËsvgµÄ×îµ×²ã¡£ÓÐÊ±ÎÒÃÇ¿ÉÒÔ¿´µ½¼ýÍ·±»blockµÄÍ¼Æ¬ÕÚ×¡ÁË¡£
+å¦‚ä¸Šå›¾æ‰€ä»¥ï¼Œ1,2å’Œ5,6ä¸¤ä¸ªç‚¹æ˜¯è¢«portçš„æ–¹å‘å›ºå®šçš„ã€‚å½“å‘çŽ°3å’Œ5æ— æ³•ç›´æŽ¥è¿žåŸŽä¸€æ¡åž‚ç›´çš„çº¿æ—¶ï¼Œå°±å–yè½´çš„ä¸­é—´å€¼ï¼Œå½¢æˆä¸€æ¡ç›´çº¿ã€‚
+çº¿æ¡çš„å±‚çº§å…³ç³»
+ç”±äºŽé¼ æ ‡ç‚¹å‡»åœ¨Arrowä¸Šæ—¶ï¼Œjqueryæ— æ³•æ•æ‰åˆ°ç‚¹å‡»äº‹ä»¶ï¼Œæ‰€ä»¥æŠŠarrowæ”¾åˆ°äº†svgçš„æœ€åº•å±‚ã€‚æœ‰æ—¶æˆ‘ä»¬å¯ä»¥çœ‹åˆ°ç®­å¤´è¢«blockçš„å›¾ç‰‡é®ä½äº†ã€‚
 Block
 Port
-ÀàÐÍ£º
-?	Èë¿Ú: ÎïÁ÷ÏßµÄÖÕµã¼ýÍ·Á¬½ÓµÄport£¬µ±ÎïÁ÷Á¬½Óµ½portÉÏÊ±£¬¼ýÍ·ÊÇ´ÓÍâÖ¸ÏòblockµÄ¡£
-?	³ö¿Ú£ºÎïÁ÷ÏßµÄÆðÊ¼¼ýÍ·Á¬½ÓµÄport£¬µ±ÎïÁ÷Á¬½Óµ½portÉÏÊ±£¬¼ýÍ·±ä³ÉÁËÖ±Ïß¡£
-·½Ïò£º´ÓÉÏµ½ÏÂ£¬´ÓÏÂµ½ÉÏ£¬´Ó×óµ½ÓÒ£¬´ÓÓÒµ½×ó£¬ÒÔblockÎªÖÐÐÄ¡£
-¿É¼ûµÄportºÍÒþ²ØµÄport£º
-µ±ÐèÒªÁ¬½ÓblockµÄoutlet portÊ±£¬ÏÔÊ¾¿É¼ûµÄoutlet port£¬ËüÓ¦¸ÃÏÔÊ¾ÔÚhidden portµÄÏÂÃæ£¬µ«ÒòÎªhidden portÊÇÍ¸Ã÷µÄ£¬ËùÒÔ¸øÓÃ»§Ò»¸ö´í¾õ£¬ÈÏÎªÎïÁ÷Á¬½ÓµÄÊÇvisible port£¬ÆäÊµÁ¬½ÓµÄhidden port¡£µ±ÐèÒªÁ¬½ÓblockµÄinlet portÊ±£¬Ò²ÊÇÒ»Ñù¡£
-ÒÆ¶¯
-µ±Êó±êÔÚblock°´ÏÂÊ±£¬ÔÚblockÉÏ´´½¨Ò»¸ösvgµÄ¾ØÐÎ£¬Õâ¸ö¾ØÐÎ»á¸²¸ÇÔ­À´µÄblock£¬µ«ÒòÎªÕâ¸ö¾ØÐÎÊÇÍ¸Ã÷µÄ£¬»á¸øÓÃ»§Ò»¸ö´í¾õ£¬ÈÏÎªÊÇÔÚblockÉÏ¼ÓÁËÒ»¸öÍâ±ß¿ò¡£µ±Êó±êÒÆ¶¯Ê±£¬¾ØÐÎ»á°´ÕÕÊó±êµÄÎ»ÖÃ²»¶ÏµÄ½øÐÐÖØ»æ¡£µ±Êó±êËÉ¿ªÊ±£¬»áÖØÐÂ»æÖÆblock£¬²¢ÇÒ»æÖÆblockÁ¬½ÓµÄËùÓÐÎïÁ÷¡£
-Ë®Æ½·­×ª
-Ë®Æ½·­×ªÊ±£¬hidden portºÍimageÍ°ÊÇ·­×ª£¬ÓëËüÁ¬½ÓµÄÏßÒ²Òª×ö·­×ª¡£ËüµÄvisible portÔÚÏÔÊ¾µÄÊ±ºò£¬ÐèÒª°´ÕÕ·­×ªºóµÄÎ»ÖÃÖØÐÂ¼ÆËã¡£
-´¹Ö±·­×ª
-Ë®Æ½·­×ª¡£
-Ðý×ª90¶È
-µ±ÓÃ»§µã»÷Ðý×ª°´Å¥Ê±£¬block»á½øÐÐË³Ê±Õë90¶ÈµÄÐý×ª£¬ËüµÄhidden portÒ²»áËæ×ÅÐý×ª¡£ËüÁ¬½ÓµÄstreamÐèÒªÖØ»æ£¬ÒÔ¼°visible portµÄÎ»ÖÃÐèÒª°´ÕÕÐý×ªºóµÄÎ»ÖÃ½øÐÐ¼ÆËã¡£
-StreamÓëBlockµÄÁ¬½Ó
-É¾³ýStream
-µ±É¾³ýstreamÊ±£¬»á°ÑÔ­À´µÄstreamÉèÖÃÎª¿Õ£¬µ«²¢²»°ÑËüÒÆ³ý¡£
-É¾³ýBlock
-É¾³ýblockÊ±£¬°ÑblockÉèÖÃÎª¿Õ£¬²¢²»ÊÇ°ÑËüÒÆ³ý¡£
-Èí¼þ¼Ü¹¹(Controller-ModelView)
-¿ÉÒÔ°Ñflowsheet·Ö³É3¸öcontroller£¬Ò»¸öflowsheetcontroller£¬À´¿ØÖÆÕû¸öflowsheetµÄÊÂ¼þ£¬Í¬Ê±¼ÇÂ¼µ±Ç°block£¬stream£¬ÒÔ¼°ËûÃÇµÄÁ¬½ÓÐÅÏ¢¡£Ò»¸öflowsheetblockcontroller£¬Ö÷Òª¿ØÖÆËùÓÐblock£¬ÒÔ¼°blockµÄÌí¼Ó¡¢É¾³ý¡£Ò»¸öflowsheetstreamcontroller£¬Ö÷Òª¿ØÖÆËùÓÐµÄstream£¬ Ìí¼Ó£¬ÍÏ¶¯£¬×§¶¯£¬ÒÆ¶¯£¬É¾³ý¡£
+ç±»åž‹ï¼š
+ï¬	å…¥å£: ç‰©æµçº¿çš„ç»ˆç‚¹ç®­å¤´è¿žæŽ¥çš„portï¼Œå½“ç‰©æµè¿žæŽ¥åˆ°portä¸Šæ—¶ï¼Œç®­å¤´æ˜¯ä»Žå¤–æŒ‡å‘blockçš„ã€‚
+ï¬	å‡ºå£ï¼šç‰©æµçº¿çš„èµ·å§‹ç®­å¤´è¿žæŽ¥çš„portï¼Œå½“ç‰©æµè¿žæŽ¥åˆ°portä¸Šæ—¶ï¼Œç®­å¤´å˜æˆäº†ç›´çº¿ã€‚
+æ–¹å‘ï¼šä»Žä¸Šåˆ°ä¸‹ï¼Œä»Žä¸‹åˆ°ä¸Šï¼Œä»Žå·¦åˆ°å³ï¼Œä»Žå³åˆ°å·¦ï¼Œä»¥blockä¸ºä¸­å¿ƒã€‚
+å¯è§çš„portå’Œéšè—çš„portï¼š
+å½“éœ€è¦è¿žæŽ¥blockçš„outlet portæ—¶ï¼Œæ˜¾ç¤ºå¯è§çš„outlet portï¼Œå®ƒåº”è¯¥æ˜¾ç¤ºåœ¨hidden portçš„ä¸‹é¢ï¼Œä½†å› ä¸ºhidden portæ˜¯é€æ˜Žçš„ï¼Œæ‰€ä»¥ç»™ç”¨æˆ·ä¸€ä¸ªé”™è§‰ï¼Œè®¤ä¸ºç‰©æµè¿žæŽ¥çš„æ˜¯visible portï¼Œå…¶å®žè¿žæŽ¥çš„hidden portã€‚å½“éœ€è¦è¿žæŽ¥blockçš„inlet portæ—¶ï¼Œä¹Ÿæ˜¯ä¸€æ ·ã€‚
+ç§»åŠ¨
+å½“é¼ æ ‡åœ¨blockæŒ‰ä¸‹æ—¶ï¼Œåœ¨blockä¸Šåˆ›å»ºä¸€ä¸ªsvgçš„çŸ©å½¢ï¼Œè¿™ä¸ªçŸ©å½¢ä¼šè¦†ç›–åŽŸæ¥çš„blockï¼Œä½†å› ä¸ºè¿™ä¸ªçŸ©å½¢æ˜¯é€æ˜Žçš„ï¼Œä¼šç»™ç”¨æˆ·ä¸€ä¸ªé”™è§‰ï¼Œè®¤ä¸ºæ˜¯åœ¨blockä¸ŠåŠ äº†ä¸€ä¸ªå¤–è¾¹æ¡†ã€‚å½“é¼ æ ‡ç§»åŠ¨æ—¶ï¼ŒçŸ©å½¢ä¼šæŒ‰ç…§é¼ æ ‡çš„ä½ç½®ä¸æ–­çš„è¿›è¡Œé‡ç»˜ã€‚å½“é¼ æ ‡æ¾å¼€æ—¶ï¼Œä¼šé‡æ–°ç»˜åˆ¶blockï¼Œå¹¶ä¸”ç»˜åˆ¶blockè¿žæŽ¥çš„æ‰€æœ‰ç‰©æµã€‚
+æ°´å¹³ç¿»è½¬
+æ°´å¹³ç¿»è½¬æ—¶ï¼Œhidden portå’Œimageæ¡¶æ˜¯ç¿»è½¬ï¼Œä¸Žå®ƒè¿žæŽ¥çš„çº¿ä¹Ÿè¦åšç¿»è½¬ã€‚å®ƒçš„visible portåœ¨æ˜¾ç¤ºçš„æ—¶å€™ï¼Œéœ€è¦æŒ‰ç…§ç¿»è½¬åŽçš„ä½ç½®é‡æ–°è®¡ç®—ã€‚
+åž‚ç›´ç¿»è½¬
+æ°´å¹³ç¿»è½¬ã€‚
+æ—‹è½¬90åº¦
+å½“ç”¨æˆ·ç‚¹å‡»æ—‹è½¬æŒ‰é’®æ—¶ï¼Œblockä¼šè¿›è¡Œé¡ºæ—¶é’ˆ90åº¦çš„æ—‹è½¬ï¼Œå®ƒçš„hidden portä¹Ÿä¼šéšç€æ—‹è½¬ã€‚å®ƒè¿žæŽ¥çš„streaméœ€è¦é‡ç»˜ï¼Œä»¥åŠvisible portçš„ä½ç½®éœ€è¦æŒ‰ç…§æ—‹è½¬åŽçš„ä½ç½®è¿›è¡Œè®¡ç®—ã€‚
+Streamä¸ŽBlockçš„è¿žæŽ¥
+åˆ é™¤Stream
+å½“åˆ é™¤streamæ—¶ï¼Œä¼šæŠŠåŽŸæ¥çš„streamè®¾ç½®ä¸ºç©ºï¼Œä½†å¹¶ä¸æŠŠå®ƒç§»é™¤ã€‚
+åˆ é™¤Block
+åˆ é™¤blockæ—¶ï¼ŒæŠŠblockè®¾ç½®ä¸ºç©ºï¼Œå¹¶ä¸æ˜¯æŠŠå®ƒç§»é™¤ã€‚
+è½¯ä»¶æž¶æž„(Controller-ModelView)
+å¯ä»¥æŠŠflowsheetåˆ†æˆ3ä¸ªcontrollerï¼Œä¸€ä¸ªflowsheetcontrollerï¼Œæ¥æŽ§åˆ¶æ•´ä¸ªflowsheetçš„äº‹ä»¶ï¼ŒåŒæ—¶è®°å½•å½“å‰blockï¼Œstreamï¼Œä»¥åŠä»–ä»¬çš„è¿žæŽ¥ä¿¡æ¯ã€‚ä¸€ä¸ªflowsheetblockcontrollerï¼Œä¸»è¦æŽ§åˆ¶æ‰€æœ‰blockï¼Œä»¥åŠblockçš„æ·»åŠ ã€åˆ é™¤ã€‚ä¸€ä¸ªflowsheetstreamcontrollerï¼Œä¸»è¦æŽ§åˆ¶æ‰€æœ‰çš„streamï¼Œ æ·»åŠ ï¼Œæ‹–åŠ¨ï¼Œæ‹½åŠ¨ï¼Œç§»åŠ¨ï¼Œåˆ é™¤ã€‚
