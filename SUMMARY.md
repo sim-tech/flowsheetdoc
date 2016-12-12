@@ -1,5 +1,4 @@
 # Summary
-* [INTRODUCTION](README/README.MD)
 * [Flowsheet](flowsheet/flowsheet.md)
 * [Stream](stream/stream.md)
 * [Block](block/block.md)
