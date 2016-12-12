@@ -17,7 +17,7 @@ Flowsheet有两种模式，一种是添加模式，另一种是拖拽模式。
 
 **拖拽模式:** 拖拽stream进行重新连接block，拖动stream和block对stream的局部线条进行位置调整，移动block的时候，会移动连接的stream。
 
-![](images/001.jpg)
+![](../images/001.jpg)
 
 * Stream 添加：添加物流到空白处 单击物流线tile，然后在flowsheet上单击，绘制物流线的起点。在flowsheet上进行第二次点击，确定物流线的终点，绘制一整条物流线。这个过程包含两步：
 
